@@ -1,0 +1,26 @@
+
+
+.side-nav-surround {
+  line-height: 3rem;
+  background: rgba(255,255,255, 0.35);
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: red
+}
+
+.side-nav-surround:hover {
+  background: rgba(255,255,255,0.95);
+}
+
+.side-nav-surround:hover > .side-nav-links {
+  color: #000;
+}
+
+.side-nav-links {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+
+

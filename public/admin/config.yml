@@ -1,0 +1,20 @@
+backend:
+  #name: test-repo
+  # the above works but doesn't save anything... we need to hook it up to the repo, but I kept getting an error my end. If you change the above to the following and see if you can log in then let me know.
+  # backend:
+     name: bitbucket
+     repo: bradbournedigital/total-recall
+
+media_folder: static/assets
+public_folder: assets
+
+collections:
+  - name: blog
+    label: Blog
+    folder: blog
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: body, label: Body, widget: markdown }

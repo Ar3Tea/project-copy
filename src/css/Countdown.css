@@ -1,0 +1,84 @@
+/* These styles overwrite and adjust the style imported by the FlipClock package */
+
+.FlipClock .flipUnitContainer {
+  width: 150px !important;
+  height: 132px !important;
+}
+
+.FlipClock .flipUnitContainer .flipCard {
+  width: 100px !important;
+  height: 64px !important;
+}
+
+.FlipClock .flipUnitContainer .flipCard.unfold {
+  margin-left: 17% !important;
+}
+
+.FlipClock .flipUnitContainer .flipCard.fold {
+  margin-left: 17% !important;
+}
+
+.FlipClock .flipUnitContainer .lowerCard span, .FlipClock .flipUnitContainer .upperCard span {
+  font-size: 3.8em !important;
+}
+
+.FlipClock .flipUnitContainer .flipCard span {
+  font-size: 3.8em !important;
+}
+
+@media only screen and (max-width: 800px) {
+  .FlipClock .flipUnitContainer {
+  width: 100px !important;
+  height: 88px !important;
+}
+
+.FlipClock .flipUnitContainer .flipCard {
+  width: 66px !important;
+  height: 42px !important;
+}
+
+.FlipClock .flipUnitContainer .flipCard.unfold {
+  margin-left: 17% !important;
+}
+
+.FlipClock .flipUnitContainer .flipCard.fold {
+  margin-left: 17% !important;
+}
+
+.FlipClock .flipUnitContainer .lowerCard span, .FlipClock .flipUnitContainer .upperCard span {
+  font-size: 2.5em !important;
+}
+
+.FlipClock .flipUnitContainer .flipCard span {
+  font-size: 2.5em !important;
+}
+}
+
+
+@media only screen and (max-width: 600px) {
+    .FlipClock .flipUnitContainer {
+      width: 75px !important;
+      height: 66px !important;
+    }
+
+    .FlipClock .flipUnitContainer .flipCard {
+      width: 50px !important;
+      height: 32px !important;
+    }
+
+    .FlipClock .flipUnitContainer .flipCard.unfold {
+      margin-left: 17% !important;
+    }
+
+    .FlipClock .flipUnitContainer .flipCard.fold {
+      margin-left: 17% !important;
+    }
+
+    .FlipClock .flipUnitContainer .lowerCard span, .FlipClock .flipUnitContainer .upperCard span {
+      font-size: 1.9em !important;
+    }
+
+    .FlipClock .flipUnitContainer .flipCard span {
+      font-size: 1.9em !important;
+    }
+  }
